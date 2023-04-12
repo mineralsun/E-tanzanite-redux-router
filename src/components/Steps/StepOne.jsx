@@ -30,7 +30,7 @@ function StepOne() {
 
     return (
         <>
-            <h3>Step One</h3>
+            <h3>Step One: Person Name</h3>
             <form onSubmit={addPerson}>
                 <input value={personName} onChange={handleChange} type="text" />
                 <input type="submit" />
